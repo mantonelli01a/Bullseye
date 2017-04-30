@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,6 @@
 		7BB0A0E01D1D55E6004093CF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0A0DE1D1D45DD004093CF /* AboutViewController.swift */; };
 		7BB0A0E21D2120AC004093CF /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0A0E11D2120AC004093CF /* BullsEye.html */; };
 		7BB0A0E41D21656C004093CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0A0E31D21656C004093CF /* Default-568h@2x.png */; };
-		845A1EB21EB5E8640079E1A3 /* BullsEye.app in Resources */ = {isa = PBXBuildFile; fileRef = 7BB0A0C91D1A9954004093CF /* BullsEye.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,8 +99,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Razeware;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = doublethunder.co.uk;
 				TargetAttributes = {
 					7BB0A0C81D1A9953004093CF = {
 						CreatedOnToolsVersion = 8.0;
@@ -111,7 +110,7 @@
 				};
 			};
 			buildConfigurationList = 7BB0A0C41D1A9953004093CF /* Build configuration list for PBXProject "BullsEye" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,7 +135,6 @@
 				7BB0A0E21D2120AC004093CF /* BullsEye.html in Resources */,
 				7BB0A0E41D21656C004093CF /* Default-568h@2x.png in Resources */,
 				7BB0A0D41D1A9954004093CF /* Assets.xcassets in Resources */,
-				845A1EB21EB5E8640079E1A3 /* BullsEye.app in Resources */,
 				7BB0A0D21D1A9954004093CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,8 +181,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -230,8 +230,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -262,7 +264,7 @@
 				DEVELOPMENT_TEAM = 4NS5L7XDWJ;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.doublethunder.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +277,7 @@
 				DEVELOPMENT_TEAM = 4NS5L7XDWJ;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.doublethunder.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
